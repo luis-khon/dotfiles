@@ -7,4 +7,4 @@ SRC_DIR="$SCRIPT_DIR/gnome"
 DEST_DIR="$HOME/.config/gnome"
 
 cp -a "$SRC_DIR" "$DEST_DIR"
-bash "$DEST_DIR/config.sh"
+sudo bash "$DEST_DIR/config.sh"
